@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/liveproducts/static/css/main.e39d87cc.css",
+    "main.js": "/liveproducts/static/js/main.502fcd35.js",
+    "static/media/marketing.jpg": "/liveproducts/static/media/marketing.5edccec59949ebae65a8.jpg",
+    "static/media/app.jpg": "/liveproducts/static/media/app.c7fc0f38a5043f5c9629.jpg",
+    "static/media/web.jpg": "/liveproducts/static/media/web.dbc01e0a7623c55a4579.jpg",
+    "static/media/logo.jpg": "/liveproducts/static/media/logo.2af8d65e858c7e2b565f.jpg",
+    "static/media/digital.jpg": "/liveproducts/static/media/digital.1f28cc4a50d8b3f4676b.jpg",
+    "static/media/software.jpeg": "/liveproducts/static/media/software.2e9f04b9a17a34302e27.jpeg",
+    "static/media/web1.jpg": "/liveproducts/static/media/web1.dc66ad26e38ae0aa6d72.jpg",
+    "static/media/android.webp": "/liveproducts/static/media/android.a6cb7963512b2dcd3cf2.webp",
+    "index.html": "/liveproducts/index.html",
+    "main.e39d87cc.css.map": "/liveproducts/static/css/main.e39d87cc.css.map",
+    "main.502fcd35.js.map": "/liveproducts/static/js/main.502fcd35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e39d87cc.css",
+    "static/js/main.502fcd35.js"
+  ]
+}
