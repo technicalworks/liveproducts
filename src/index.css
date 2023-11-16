@@ -1,13 +1,213 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main{
+  height: 100vh;
 }
+.nav_bar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.nav_bar div:first-child{
+  font-size: 1.5rem;
+  color: rgb(59, 59, 59);
+}
+.nav_bar div:last-child a{
+  margin-left: 10px;
+  color: rgb(112, 112, 112);
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.nav_bar div:last-child a.active{
+    border-bottom: 1px solid black;
+    color: black;
+}
+.footer{
+  font-size: 0.6rem;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+.home_head{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.home_para{
+  font-size: 0.7rem;
+}
+#home_btn{
+  font-size: 0.6rem;
+  border-radius: 15px;
+  width: 100px;
+}
+.main_home{
+  display: grid;
+  /* border: 1px solid black; */
+  height: 75vh;
+}
+.main_home button{
+  border: 1px solid rgb(103, 14, 219);
+  color:rgb(103, 14, 219) ;
+}
+.main_home button:hover{
+  background-color: rgb(103, 14, 219);
+  color: white;
+}
+.imaged{
+  width: 100%;
+  height: 100%;
+}
+.imaged img{
+  width: 100%;
+  height: 100%;
+}
+
+.service_grid{
+  display: grid;
+  grid-template-rows: repeat(2, 260px);
+  grid-auto-rows: 260px;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.card h5{
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+.card p{
+  font-size: 0.5rem;
+}
+.card a{
+  font-size: 0.5rem;
+  border-radius: 2px;
+  border: 1px solid rgb(103, 14, 219);
+  color: rgb(103, 14, 219);
+}
+.card img {
+  border-radius: 2px 0 0 0;
+  height: 145px;
+
+}
+.card a:hover{
+  background-color: rgb(103, 14, 219);
+  color: white;
+  border: none;
+}
+.form_data{
+  width: 60%;
+  height: 340px;
+  margin: auto;
+}
+.form_data input{
+  font-size: 0.6rem;
+  height: 25px;
+  border-radius: 2px;
+  margin-bottom: 5px;
+}
+.form_data label{
+  font-size: 0.7rem;
+}
+.form_data textarea{
+  font-size: 0.7rem;
+  border-radius: 2px;
+}
+.form_data button{
+  font-size: 0.6rem;
+  border-radius: 2px;
+  margin-top: 30px;
+}
+.animated{
+  /* animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+  animation-timing-function:ease-in-out; */
+  animation: bounce 2s ease-in-out infinite alternate-reverse both;
+
+}
+
+@keyframes bounce{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
